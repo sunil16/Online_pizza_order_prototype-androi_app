@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight=".85"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:textColor="@android:color/holo_red_dark"
+    android:layout_marginTop="15dp"
+    android:gravity="center"
+    android:text="Paneer overloaded : Peppy Paneer, Onion, Tomato, Green Chillies, Corn, Italian Sprinkle"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price : 199"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/checkBox"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:text="Cheese overloaded : Cheese, Mozzarella Cheese"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price : 199"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/checkBox2"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:text="Veggie Supreme : Mushroom, capsicum, onion, tomato, baby corn and olives. "/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price : 265"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/checkBox3"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:text="Country Feast : Sweet corn, mushroom, tomato, onion and capsicum. "/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price : 230"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/checkBox4"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:text="Simply Veg : Tomato and onion "/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price : 170"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/checkBox5"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:text="Exotica : Red capsicum, baby corn, capsicum, olives and jalapenos. "/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price : 170"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/checkBox6"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:text="Tandoori Paneer : Paneer, onion, capsicum, red paprika and tomato. "/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price : 230"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/checkBox7"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:text="Kurkure Pizza : Onion, Tomato, Jalapenos, Kurkure "/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price : 109"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/checkBox8"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:text="Fiery Ride : Tomato, Onion, Capsicum, Sweet Corn , Olives , Jalapenos and Green Chillies "/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price : 265"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/checkBox9"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:text="Panner Makhani : Paneer, capsicum, onion, and red paprika. "/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price : 230"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/checkBox10"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight=".5"
+            android:text="Cancel"
+            android:id="@+id/button3"
+            android:layout_margin="10dp"
+            android:onClick="cancelPage"
+            android:textSize="22sp"
+            android:background="@color/dim_foreground_material_dark"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight=".5"
+            android:text="Order"
+            android:id="@+id/button4"
+            android:onClick="orderPizza"
+            android:layout_margin="10dp"
+            android:textSize="22sp"
+            android:background="@color/dim_foreground_material_dark"/>
+    </LinearLayout>
+</LinearLayout>
